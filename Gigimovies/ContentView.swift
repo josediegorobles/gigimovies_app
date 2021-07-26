@@ -59,7 +59,7 @@ struct ContentView: View {
                             }
                         }
                     }.tabItem {
-                    Image(systemName: "bubble.left")
+                    Image(systemName: "film")
                     Text("Peliculas")
                 }.tag(0)
                 List(favorites.favoriteMovies){ i in
@@ -84,7 +84,7 @@ struct ContentView: View {
                     }
                 }
                 .tabItem {
-                    Image(systemName: "bubble.left")
+                    Image(systemName: "star")
                     Text("Favoritas")
                 }.tag(1)
             }
